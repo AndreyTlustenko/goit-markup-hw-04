@@ -28,17 +28,20 @@
         width: 1200px;
         
          }
-    
+    .container-clients { padding-top: 94px; }
     .section {
         padding-bottom: 94px;
         padding-top: 94px;}
-    .section-hero {background-color: var(--background-title);
+    .section-hero {background-image: linear-gradient(var(--linear-gradient), var(--linear-gradient)),
+        url("../images/hero.jpg");
+        background-color: var(--background-title);
         padding-bottom: 200px;
         padding-top: 200px; }   
     .section-comand {background: var(--background-button);
         padding-bottom: 94px; padding-top: 94px; 
       }
     .section-studia { padding-top: 94px;}
+    .container-clients { padding-top: 94px; }
     .container-header {display: flex;
         align-items: center;
         margin-left: auto;
