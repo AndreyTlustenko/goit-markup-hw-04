@@ -174,7 +174,20 @@
        }
     .box-about:not(:last-child) { margin-right: 30px; }
    
-    .clients-list { display: flex;
+    .clients-list {display: flex;
+        font-size: 36px;
+        line-height: 1.16;
+        padding: 0;
+        text-align: center;
+    }
+    .clients-item:not(:last-child) {margin-right: 30px;}
+    .client-icon {fill: currentColor;}
+
+    .client-icon:hover,
+    .client-icon:focus {color: var(--accent-color);
+    border-color: var(--accent-color);}
+
+    .clients-iconlist { display: flex;
         box-sizing: border-box;
         align-items: center;
         justify-content: center;
@@ -182,7 +195,9 @@
         height: 92px;
         border: 1px solid #AFB1B8;
         border-radius: 4px;
-    margin: 0; padding: 0;}
+        color:  #AFB1B8;
+    }
+
     .botton-nav { display: flex; }
     
     .botton-item:first-child {margin-left: 0px; }
