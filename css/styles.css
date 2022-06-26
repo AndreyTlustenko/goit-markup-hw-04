@@ -136,7 +136,7 @@
     padding: 25px 102px;
     margin-bottom: 30px;
        }
-    .box-about:not(:last-child) {margin-left{30px};}
+    .box-about:not(:last-child) { margin-left: 30px; }
     .clients {
         display: flex;
         box-sizing: border-box;
