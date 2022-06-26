@@ -78,16 +78,17 @@
     box-sizing:border-box;
     border-bottom: 1px solid #ECECEC; 
     }
-    
+    .list-head:hover,
+    .list-head:focus {fill:currentColor;}
     .social {display: flex;
         justify-content: center;
         align-items: center;
         margin-top: 16px; 
         padding-right: 10px;
     }
-    
+    .list .heder-icon {margin-right: 10px;}
    
-    .social-link {display: flex;
+    /* .social-link {display: flex;
         justify-content: center;
         align-items: center; 
         width: 44px;
@@ -95,22 +96,38 @@
         border: 0;
         border-radius: 50%;
         color: #AFB1B8;   
-        }
+        } */
     .social-link:not(:last-child) { margin-right: 10px; }
-
+    
+    
     /* .social-icon:hover,
-    .social-icon:focus {fill:var(--button-color);} */
-    .social-comand {fill:var(--button-color);}
-    .social-link:hover,
-    .social-link:focus {fill:var(--button-color); background: #2196F3;}    
+    .social-icon:focus {fill:  var(--button-color);} */
+    /* .soclink:hover,
+    .soclink:focus {background-color: var(--accent-color); 
+    }
+    .soclink:hover .soclink,
+    .soclink:focus .soclink {fill: #FFFFFF;} */
+    /* .social-link:hover,
+    .social-link:focus {
+         background: #2196F3;}     */
+    .soclink {display: flex;
+        justify-content: center;
+        align-items: center; 
+        width: 44px;
+        height: 44px;
+        border: 0;
+        border-radius: 50px;;
+        color: #AFB1B8;   
+        }
+       
+    .social-icon {fill: currentColor}
 
+    .social-link:hover .soclink,
+    .social-link:focus .soclink {
+         background-color: var(--accent-color);
+          color: var(--button-color);}
     
     
-    .social-icon {fill: var(--social-icon) }
-    
-    
-    
-
     .head-nav {display: flex; color: var(--title-color); margin-left: 50px;}
     .head-group {display: flex;  margin-left: auto; padding: 0; }
     
@@ -225,7 +242,10 @@
         flex-basis: calc((100% - var(--indent) * var(--items)) / var(--items));
         margin: calc(var(--indent) / 2);
     }
-    
+    .card-item:hover,
+    .card-item:focus {box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+        0px 4px 4px rgba(0, 0, 0, 0.06),
+        1px 4px 6px rgba(0, 0, 0, 0.16);cursor: pointer;}
     .border {padding: 20px 24px;
         border: 1px solid #EEEEEE;}
     
