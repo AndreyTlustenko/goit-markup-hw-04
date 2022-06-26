@@ -133,8 +133,10 @@
 
     .box-about { display: flex;
         justify-content: center;
+        align-items: center;
         background: var(--background-button);
-        padding: 25px 102px;
+        width: 270px;
+        height: 120px;
         margin-bottom: 30px;
        }
     .box-about:not(:last-child) { margin-right: 30px; }
