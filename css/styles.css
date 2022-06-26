@@ -32,11 +32,25 @@
     .section {
         padding-bottom: 94px;
         padding-top: 94px;}
-    .section-hero {background-image: linear-gradient(var(--linear-gradient), var(--linear-gradient)),
+
+    .overlay {max-width: 1600px; height: 600px;
+         background-image: linear-gradient(to right, 
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4) 
+        ),
         url("../images/hero.jpg");
-        background-color: var(--background-title);
+        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+        
+        margin-left: auto;
+        margin-right: auto;
+      
         padding-bottom: 200px;
         padding-top: 200px; }   
+
     .section-comand {background: var(--background-button);
         padding-bottom: 94px; padding-top: 94px; 
       }
@@ -103,7 +117,7 @@
         }
     .logo-web {color: var(--title-color); font-style: normal;}
     
-    .h1 {background: var(--background-title); 
+    .h1 {
         color: var(--button-color); 
         font-family: inherit;
         font-weight: 900;
@@ -116,7 +130,16 @@
     ul {list-style: none; padding-left: 0; margin: 0;}
     .style {display: flex;}
     a {text-decoration: none; }
-    
+    .clients {
+        display: flex;
+        box-sizing: border-box;
+        align-items: center;
+        justify-content: center;
+        width: 170px;
+        height: 92px;
+        border: 1px solid var(--icon-main-color);
+        border-radius: 4px;
+    }
     .botton-nav { display: flex; }
     
     .botton-item:first-child {margin-left: 0px; }
