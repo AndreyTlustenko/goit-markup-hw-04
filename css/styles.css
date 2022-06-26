@@ -133,6 +133,7 @@
 
     .box-about { display: flex;
         justify-content: center;
+        background: var(--background-button);
         padding: 25px 102px;
         margin-bottom: 30px;
        }
