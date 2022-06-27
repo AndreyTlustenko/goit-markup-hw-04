@@ -404,14 +404,23 @@
         line-height: 16px;
         text-transform: uppercase;
         color: var(--button-color);
-        margin-bottom: 20px;
+        
        }
 
-    .div-footer  {min-width: 231px;} 
-    .footer-social { display: flex;
+    .div-footer  { display: inline-block;
+        } 
+    .footer-social {  
+        display: inline-flex;
         color: var(--button-color);
         margin-left: 70px;
-        padding-top: 15px;
+        margin-top: 15px;
+        flex-direction: column;
+        position: absolute;
+    }
+    /* .social {padding-top: 20;} */
+    .social-link:hover,
+    .social-link:focus {
+        background: var(--accent-color)
     }
     .footer-social-link:not(:last-child) {padding-right: 10px; }
     .social-link {display: flex;
